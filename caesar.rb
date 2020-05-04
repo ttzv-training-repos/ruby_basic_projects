@@ -1,7 +1,3 @@
-def get_ord (str)
-  str.split('').each {|char| puts char << ' ' << char.ord.to_s}
-end
-
 def caesar (text, shift)
   alphabet = 'abcdefghijklmnopqrstuwvxyz'
   alphabet_upper = alphabet.upcase
